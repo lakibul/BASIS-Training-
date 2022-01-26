@@ -8,11 +8,11 @@
 }
 
 .nav-color1{
-      background-color: lightgray;
+      background-color: #e2e2e2;
 }
 
 .nav-color2{
-      background-color: azure;
+      background-color: #efefef;
 }
 
 .nav-text{
@@ -32,4 +32,29 @@
 
 .p{
     font-size: 12px;
+}
+
+@media screen and (max-width: 600px)
+{
+    .menu-position{
+        position: relative;
+        bottom: 50px;
+        left: 430px;
+    }
+}
+
+@media screen and (max-width: 600px)
+{
+    .menu-position{
+        position: relative;
+        bottom: 50px;
+        left: 390px;
+    }
+    .header-contact{
+        width: 100%;
+    }
+    .header-signIn{
+        width: 100% !important;
+        float: none !important;
+    }
 }
