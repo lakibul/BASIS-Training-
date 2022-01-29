@@ -2,39 +2,270 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Day 08</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
     <section class="py-2 bg-secondary">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <button type="button" data-toogle="modal" data-target="#myModal" class="btn btn-info">Click Me</button>
+                <div class="col-sm-6">
+                    <ul class="nav left-position">
+                        <li class="nav-link text-white"><i class="fas fa-phone"></i> +8809612342486</li>
+                        <li class="nav-link text-white"> <i class="far fa-envelope"></i> info@bitm.org.bd</li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="nav float-right right-position">
+                        <li>
+                            <a href="#my-modal" class="nav-link text-white" data-toggle="modal"><i class="far fa-user"></i> Sign In</a>
+                        </li>
 
-                    <div class="modal fade" id="myModal">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h4>This is modal header</h4>
-                                </div>
-                                <div class="modal-body">
-                                    <h3>This is heading...</h3>
-                                </div>
-                                <div class="modal-footer">
-                                    <p>This is modal footer</p>
-                                </div>
-                            </div>
+                        <!-- Modals here-->
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-2 bg-light">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="">
+                        <img src="img/bitm-logo.png" alt="BITM LOGO">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+
+                    <nav class="navbar navbar-expand-md navbar-light bg-light">
+
+                        <button type="button" class="navbar-toggler menu-position" data-toggle="collapse" data-target="#menu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="menu">
+
+                            <ul class="navbar-nav">
+                                <li>
+                                    <a href="" class="nav-link text-uppercase font-weight-bold">Home</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href=""  class="nav-link text-uppercase font-weight-bold dropdown-toggle" data-toggle="dropdown">ALL COURSES</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="" class="dropdown-item">Training</a></li>
+                                        <li><a href="" class="dropdown-item">Workshop</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="" class="nav-link text-uppercase font-weight-bold">SEIP</a>
+                                </li>
+                                <li>
+                                    <a href="" class="nav-link text-uppercase font-weight-bold">ASSESSMENT</a>
+                                </li>
+                                <li>
+                                    <a href=""  class="nav-link text-uppercase font-weight-bold">ABOUT US</a>
+                                </li>
+                            </ul>
                         </div>
+
+                    </nav>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="">
+                        <img src="img/basis_logo.png" alt="BASIS LOGO" class="h-50 float-right">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <!--    Bootstrap Tab Pane Starts here    -->
+
+
+    <section class="py-2 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="nav-item">
+                            <a href="#home" data-toggle="tab" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" data-toggle="tab" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" data-toggle="tab" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="home">
+                            <div class="card card-body">
+                                <h1>This is Tab One Heading.</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id natus, quisquam! Aperiam commodi deserunt, expedita fugiat incidunt nam natus nemo numquam perspiciatis, quasi quia reiciendis reprehenderit tempore ullam voluptatum. Placeat!</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="about">
+                            <div class="card card-body">
+                                <h1>This is Tab Two Heading.</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id natus, quisquam! Aperiam commodi deserunt, expedita fugiat incidunt nam natus nemo numquam perspiciatis, quasi quia reiciendis reprehenderit tempore ullam voluptatum. Placeat!</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact">
+                            <div class="card card-body">
+                                <h1>This is Tab Three Heading.</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id natus, quisquam! Aperiam commodi deserunt, expedita fugiat incidunt nam natus nemo numquam perspiciatis, quasi quia reiciendis reprehenderit tempore ullam voluptatum. Placeat!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--    Bootstrap Tab Pane Starts here    -->
+
+    <!--    Bootstrap Pills Starts here    -->
+
+
+    <section class="py-2 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="nav-item">
+                            <a href="#home1" data-toggle="pill" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about1" data-toggle="pill" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact1" data-toggle="pill" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="home1">
+                            <div class="card card-body">
+                                <h1>This is Tab One Heading.</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id natus, quisquam! Aperiam commodi deserunt, expedita fugiat incidunt nam natus nemo numquam perspiciatis, quasi quia reiciendis reprehenderit tempore ullam voluptatum. Placeat!</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="about1">
+                            <div class="card card-body">
+                                <h1>This is Tab Two Heading.</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id natus, quisquam! Aperiam commodi deserunt, expedita fugiat incidunt nam natus nemo numquam perspiciatis, quasi quia reiciendis reprehenderit tempore ullam voluptatum. Placeat!</p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact1">
+                            <div class="card card-body">
+                                <h1>This is Tab Three Heading.</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id natus, quisquam! Aperiam commodi deserunt, expedita fugiat incidunt nam natus nemo numquam perspiciatis, quasi quia reiciendis reprehenderit tempore ullam voluptatum. Placeat!</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--    Bootstrap Pills Starts here    -->
+
+    <!--Sign In Modals Start Here-->
+    <div class="modal fade" id="my-modal" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Sign In</h4>
+                    <button type="button" class="close" data-dismiss="modal" >
+                        <span class="">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-auto">
+                    <div class="card card-body">
+                        <div class="mx-auto">
+                            <a href="">
+                                <i class="fab fa-3x fa-facebook-square"></i>
+                            </a>
+                            <a href="">
+                                <i class="fab fa-3x fa-google-plus-square text-danger"></i>
+                            </a>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" class="">Email</label>
+                            <input type="email" name="" id="email" class="form-control" placeholder="example@domain.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="">password</label>
+                            <input type="email" name="" id="password" class="form-control">
+                        </div>
+
+                        <div class="form-group text-right">
+                            <a href="#" class="text-success font-weight-bolder text-decoration-none">Forgot Password?</a>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="submit" name="" id="" class="btn btn-outline-primary btn-block" value="Sign In">
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="modal-footer mx-auto">
+                    <p class="">Not registered? To register <a href="" class="text-success list-group-item-action text-decoration-none">click here</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Sign In Modals Ends Here-->
+
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="accordion" id="bitm">
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#div1" data-toggle="collapse">Click Here</a>
+                            </div>
+                            <div id="div1" class="collapse show" data-parent="#bitm">
+                                <div class="card-body">
+                                    <h1>This is Heading.</h1>
+                                    <p>This is paragraph.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a href="#div2" data-toggle="collapse">Click Here</a>
+                            </div>
+                            <div id="div2" class="collapse show" data-parent="#bitm">
+                                <div class="card-body">
+                                    <h1>This is Heading.</h1>
+                                    <p>This is paragraph.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
-</html>
