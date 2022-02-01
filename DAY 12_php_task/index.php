@@ -5,19 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calculator</title>
+    <title>Day 12 task</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/all.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark bg-danger">
         <div class="container">
-            <a href="" class="navbar-brand">LOGO</a>
-            <ul class="navbar-nav">
-                <li><a href="" class="nav-link">Calculator</a></li>
-                <li><a href="" class="nav-link">Series</a></li>
-            </ul>
+            <a href="" class="navbar-brand">DAY 12 TASK</a>
         </div>
     </nav>
 
@@ -26,24 +22,22 @@
             <div class="row">
                 <div class="col-md-8 mx-auto">
                     <div class="card">
-                        <div class="card-header">My Calculator</div>
                         <div class="card-body">
                             <form action="action.php" method="POST">
 
                                 <div class="form-group row">
-                                    <label class="col-form-label col-md-3">First Number</label>
+                                    <label class="col-form-label col-md-3">Starting Number</label>
                                     <div class="col-md-9">
-                                        <input type="number" name="first_number" required class="form-control"/>
-                                    </div>
-<                                </div>
-
-                                <div class="form-group row">
-                                    <label class="col-form-label col-md-3">Second Number</label>
-                                    <div class="col-md-9">
-                                        <input type="number" name="second_number" required class="form-control"/>
+                                        <input type="number" name="start_number" required class="form-control"/>
                                     </div>
                                 </div>
-htm
+
+                                <div class="form-group row">
+                                    <label class="col-form-label col-md-3">Ending Number</label>
+                                    <div class="col-md-9">
+                                        <input type="number" name="end_number" required class="form-control"/>
+                                    </div>
+                                </div>
 
                                 <div class="form-group row">
                                     <label class="col-form-label col-md-3">Result</label>
@@ -55,11 +49,7 @@ htm
                                 <div class="form-group row">
                                     <label class="col-form-label col-md-3"></label>
                                     <div class="col-md-9">
-                                        <input type="submit" name="operator" class="btn btn-outline-danger" value="+"/>
-                                        <input type="submit" name="operator" class="btn btn-outline-danger" value="-"/>
-                                        <input type="submit" name="operator" class="btn btn-outline-danger" value="*"/>
-                                        <input type="submit" name="operator" class="btn btn-outline-danger" value="/"/>
-                                        <input type="submit" name="operator" class="btn btn-outline-danger" value="%"/>
+                                        <input type="submit" name="submit" class="btn btn-outline-info"/>
                                     </div>
                                 </div>
 
@@ -70,6 +60,7 @@ htm
             </div>
         </div>
     </section>
+
 
     <script src="assets/js/jquery-3.6.0.js"></script>
     <script src="assets/js/bootstrap.js"></script>
