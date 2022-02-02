@@ -15,13 +15,14 @@ class task
 
         for($i= $this->start; $i<= $this->end; $i++)
         {
-            $this->result.=$i;
+            $this->result.=(string)$i;
         }
-        return $this->result;
+
 
     }
 
     public function index(){
+        echo $this->result;
         return $this->result;
     }
 
