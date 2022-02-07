@@ -1,9 +1,12 @@
 <?php
 namespace App\classes;
-class Details
+
+require_once 'vendor/autoload.php';
+use App\classes\Product;
+class Details extends Product
 {
-    public function index()
+    public function getAllProduct($key)
     {
-        header('Location: action.php?pages=product');
+        echo 'checking error';
     }
 }

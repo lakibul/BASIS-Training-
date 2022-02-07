@@ -31,7 +31,7 @@ if (isset($_GET['pages']))
     elseif ($_GET['pages'] == 'details')
     {
         $product = new Product();
-        $products = $product->getAllProduct();
+        $products = $product->getAllProduct($_GET);
         include 'pages/details.php';
     }
 }

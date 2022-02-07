@@ -11,6 +11,7 @@ class Product
                 'Name' => 'Headphone',
                 'Price'=> '25,000',
                 'Brand'=> 'Nikon',
+                'Description' => 'This product Made by Bangladesh.',
                 'image'=> 'i1.jpg',
             ],
             1 => [
@@ -18,6 +19,7 @@ class Product
                 'Name' => 'Camera',
                 'Price'=> '5,000',
                 'Brand'=> 'Nikon',
+                'Description' => 'This product Made by Chile.',
                 'image'=> 'i2.jpg',
             ],
             2 => [
@@ -25,6 +27,7 @@ class Product
                 'Name' => 'Lighter',
                 'Price'=> '10,000',
                 'Brand'=> 'Nikon',
+                'Description' => 'This product Made by UAE.',
                 'image'=> 'i3.jpg'
             ],
             3 => [
@@ -32,6 +35,7 @@ class Product
                 'Name' => 'Soap',
                 'Price'=> '25,000',
                 'Brand'=> 'Nikon',
+                'Description' => 'This product Made by Vietnam.',
                 'image'=> 'i3.jpg'
             ],
             4 => [
@@ -39,6 +43,7 @@ class Product
                 'Name' => 'Camera',
                 'Price'=> '25,000',
                 'Brand'=> 'Nikon',
+                'Description' => 'This product Made by UK.',
                 'image'=> 'i2.jpg'
             ],
             5 => [
@@ -46,6 +51,7 @@ class Product
                 'Name' => 'Watch',
                 'Price'=> '25,000',
                 'Brand'=> 'Nikon',
+                'Description' => 'This product Made by INDIA.',
                 'image'=> 'i1.jpg'
             ],
             6 => [
@@ -53,6 +59,7 @@ class Product
                 'Name' => 'Watch',
                 'Price'=> '25,000',
                 'Brand'=> 'Nikon',
+                'Description' => 'This product Made by Japan.',
                 'image'=> 'i1.jpg'
             ],
             7 => [
@@ -60,6 +67,7 @@ class Product
                 'Name' => 'Watch',
                 'Price'=> '25,000',
                 'Brand'=> 'Nikon',
+                'Description' => 'This product Made by Korea.',
                 'image'=> 'i1.jpg'
             ],
             8 => [
@@ -67,6 +75,7 @@ class Product
                 'Name' => 'Watch',
                 'Price'=> '25,000',
                 'Brand'=> 'Nikon',
+                'Description' => 'This product Made by Ukraine.',
                 'image'=> 'i3.jpg'
             ],
             9 => [
@@ -74,6 +83,7 @@ class Product
                 'Name' => 'Watch',
                 'Price'=> '25,000',
                 'Brand'=> 'Nikon',
+                'Description' => 'This product Made by Canada.',
                 'image'=> 'i1.jpg'
             ],
         ];

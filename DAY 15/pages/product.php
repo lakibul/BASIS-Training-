@@ -11,8 +11,9 @@
                             <h3 class="card-title"><?php echo $product['Name']; ?></h3>
                             <h4 class="card-title"><?php echo $product['Price']; ?></h4>
                             <h5 class="card-title"><?php echo $product['Brand']; ?></h5>
+                            <h5>Desciption: <?php echo $product['Description']; ?></h5>
                             <hr/>
-                            <a href="action.php?pages=details&id=<?php echo $product['id']?>" class="btn btn-outline-dark">Read More</a>
+                            <a href="action.php?pages=details" class="btn btn-outline-dark">Read More</a>
                         </div>
                     </div>
                 </div>
