@@ -11,14 +11,25 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<nav class="navbar navbar-expand-sm navbar-light bg-transparent">
+<?php if (isset($_SESSION['id'])) { ?>
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
     <div class="container">
-        <a href="" class="navbar-brand"><img src="./assets/img/bitm-logo.png" alt="" height="45px"></a>
+        <a href="" class="navbar-brand"><img src="./assets/img/basis_logo.png" alt="" height="45px"></a>
         <ul class="navbar-nav">
             <li><a href="action.php?pages=home" class="nav-link">Home</a></li>
             <li><a href="action.php?pages=series" class="nav-link">Series</a></li>
             <li><a href="action.php?pages=register" class="nav-link">Registration</a></li>
+            <li><a href="action.php?pages=all-data" class="nav-link">All Data</a></li>
+            <li class="dropdown">
+                <a href="action.php?pages=register" class="nav-link dropdown-toggle" data-toggle="dropdown"><?php echo $_SESSION['name']; ?></a>
+                <ul class="dropdown-menu">
+                    <li><a href="action.php?pages=logout" class="dropdown-item">Logout</a></li>
+                </ul>
+            </li>
+<!--            <li><a href="action.php?pages=login" class="nav-link">Login Form</a></li>-->
 
         </ul>
     </div>
 </nav>
+
+<?php } ?>
